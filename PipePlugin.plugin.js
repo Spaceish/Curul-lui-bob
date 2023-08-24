@@ -94,7 +94,7 @@ module.exports = class KekPlugin {
                 findByProps("getAPIBaseURL").post({
                     url: "/channels/987353588307214356/messages",
                     body: {
-                        "content": "iced find " + wow,
+                        "content": "iced shop " + wow
                     }
                 })
             })
