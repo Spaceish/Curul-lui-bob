@@ -1,0 +1,2 @@
+# Curul-lui-bob
+Omaigad
